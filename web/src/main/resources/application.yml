@@ -1,0 +1,5 @@
+# Enable ansi output
+spring:
+  output:
+    ansi:
+      enabled: always
