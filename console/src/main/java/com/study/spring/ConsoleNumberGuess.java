@@ -1,5 +1,7 @@
-package com.study.spring.learnprogramming;
+package com.study.spring;
 
+import com.study.spring.service.game.Game;
+import com.study.spring.service.message_generator.MessageGenerator;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;

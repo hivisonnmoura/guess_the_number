@@ -1,4 +1,4 @@
-package com.study.spring.learnprogramming.util;
+package com.study.spring.util;
 
 public final  class ViewNames {
 

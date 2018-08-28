@@ -1,4 +1,4 @@
-package com.study.spring.learnprogramming.service;
+package com.study.spring.service.game;
 
 public interface GameService {
 

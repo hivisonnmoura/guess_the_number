@@ -1,5 +1,8 @@
-package com.study.spring.learnprogramming;
+package com.study.spring.service.number_generator.impl;
 
+import com.study.spring.annotations.MaxNumber;
+import com.study.spring.annotations.MinNumber;
+import com.study.spring.service.number_generator.NumberGenerator;
 import lombok.AccessLevel;
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Autowired;

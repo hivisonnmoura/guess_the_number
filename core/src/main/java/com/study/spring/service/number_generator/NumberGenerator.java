@@ -1,4 +1,4 @@
-package com.study.spring.learnprogramming;
+package com.study.spring.service.number_generator;
 
 public interface NumberGenerator {
 

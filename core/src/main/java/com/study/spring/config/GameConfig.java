@@ -1,8 +1,8 @@
-package com.study.spring.learnprogramming.config;
+package com.study.spring.config;
 
-import com.study.spring.learnprogramming.GuessCount;
-import com.study.spring.learnprogramming.MaxNumber;
-import com.study.spring.learnprogramming.MinNumber;
+import com.study.spring.annotations.GuessCount;
+import com.study.spring.annotations.MaxNumber;
+import com.study.spring.annotations.MinNumber;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

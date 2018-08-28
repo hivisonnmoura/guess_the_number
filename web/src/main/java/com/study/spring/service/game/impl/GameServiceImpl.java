@@ -1,7 +1,8 @@
-package com.study.spring.learnprogramming.service;
+package com.study.spring.service.game.impl;
 
-import com.study.spring.learnprogramming.Game;
-import com.study.spring.learnprogramming.MessageGenerator;
+import com.study.spring.service.game.Game;
+import com.study.spring.service.game.GameService;
+import com.study.spring.service.message_generator.MessageGenerator;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

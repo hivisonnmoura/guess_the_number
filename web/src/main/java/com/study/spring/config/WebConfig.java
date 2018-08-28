@@ -1,6 +1,6 @@
-package com.study.spring.learnprogramming.config;
+package com.study.spring.config;
 
-import com.study.spring.learnprogramming.util.ViewNames;
+import com.study.spring.util.ViewNames;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;

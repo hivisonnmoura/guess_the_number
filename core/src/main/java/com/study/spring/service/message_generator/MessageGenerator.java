@@ -1,4 +1,4 @@
-package com.study.spring.learnprogramming;
+package com.study.spring.service.message_generator;
 
 public interface MessageGenerator {
 

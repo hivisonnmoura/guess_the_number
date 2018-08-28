@@ -1,4 +1,4 @@
-package com.study.spring.learnprogramming;
+package com.study.spring;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;

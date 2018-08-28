@@ -1,5 +1,7 @@
-package com.study.spring.learnprogramming;
+package com.study.spring.service.message_generator.impl;
 
+import com.study.spring.service.game.Game;
+import com.study.spring.service.message_generator.MessageGenerator;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
@@ -22,13 +24,7 @@ public class MessageGeneratorImpl implements MessageGenerator {
     }
     @Override
     public String getMainMessage() {
-        return new StringBuilder()
-                .append("Number is between ")
-                .append(game.getSmallest())
-                .append(" and ")
-                .append(game.getBiggest())
-                .append(". Can you guess it ?")
-                .toString();
+        return "Number is between  "+ game.getSmallest() +" and " +  game.getBiggest() + ". Can you guess it ?";
     }
 
     @Override

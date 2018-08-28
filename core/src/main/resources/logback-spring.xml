@@ -2,7 +2,7 @@
 
     <include resource="org/springframework/boot/logging/logback/base.xml"/>
 
-    <logger name="academy.learnprogramming" level="DEBUG"/>
+    <logger name="com.study.spring" level="INFO"/>
     <logger name="org.springframework" level="INFO"/>
 
 </configuration>

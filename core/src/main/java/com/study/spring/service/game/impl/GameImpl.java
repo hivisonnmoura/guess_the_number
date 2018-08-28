@@ -1,17 +1,20 @@
-package com.study.spring.learnprogramming;
+package com.study.spring.service.game.impl;
 
+import com.study.spring.service.number_generator.NumberGenerator;
+import com.study.spring.annotations.GuessCount;
+import com.study.spring.service.game.Game;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
 @Slf4j
 @Getter
-@Component
+@Service
 public class GameImpl implements Game {
 
 
