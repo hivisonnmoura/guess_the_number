@@ -11,7 +11,7 @@ import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 @ComponentScan(basePackages = "com.study.spring")
-@PropertySource("classpath:config/game.yml")
+@PropertySource("classpath:config/game.properties")
 public class GameConfig {
 
     @Value("${game.maxNumber:20}")
@@ -20,7 +20,7 @@ public class GameConfig {
     @Value("${game.guessCount:5}")
     private int guessCount;
 
-    @Value("${game.minNumber:0}")
+    @Value("${game.minNumber:5}")
     private int minNumber;
 
     @Bean

@@ -1,5 +1,4 @@
 package com.study.spring.config;
-
 import com.study.spring.util.ViewNames;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
@@ -11,6 +10,5 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/").setViewName(ViewNames.HOME);
-        registry.addViewController("home").setViewName(ViewNames.HOME);
     }
 }

@@ -53,7 +53,7 @@ public class GameImpl implements Game {
 
     @PreDestroy
     public void preDestroy(){
-        log.info("in Game preDestroy()");
+        log.info("In GAME preDestroy()");
     }
 
     @Override
