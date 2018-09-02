@@ -1,0 +1,11 @@
+<thlogic>
+    <attr sel="#headId" th:replace="~{fragments/head :: headFragment}" />
+
+    <attr sel="#result-text" th:text="${__${T(com.study.spring.util.AttributesNames).RESULT_MESSAGE}__}"/>
+
+    <attr sel="#linkRestartId" th:href="@{__${T(com.study.spring.util.GameMappings).RESTART}__}"/>
+
+    <attr sel="#linkHomeId" th:href="@{__${T(com.study.spring.util.GameMappings).HOME}__}"/>
+
+    <attr sel="footerId" th:replace="~{fragments/footer :: footerFragment}"/>
+</thlogic>

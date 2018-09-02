@@ -4,5 +4,6 @@
 
     <logger name="com.study.spring" level="INFO"/>
     <logger name="org.springframework" level="INFO"/>
+    <logger name="org.thymeleaf" level="TRACE"/>
 
 </configuration>

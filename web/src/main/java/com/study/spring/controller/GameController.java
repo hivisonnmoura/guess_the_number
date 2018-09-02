@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import static com.study.spring.util.AttributesNames.*;
 import static com.study.spring.util.GameMappings.REDIRECT_PLAY;
+import static com.study.spring.util.GameMappings.RESTART;
 import static com.study.spring.util.ViewNames.*;
 
 @Slf4j
@@ -41,9 +42,14 @@ public class GameController {
     public String processMessage(@RequestParam int guess) {
         log.info("guess = {}", guess);
         gameService.checkGuess(guess);
+
         return REDIRECT_PLAY;
+    }
 
+    @GetMapping(RESTART)
+    public String restart() {
+        gameService.reset();
 
-
+        return REDIRECT_PLAY;
     }
 }
